@@ -1,0 +1,41 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(fonts/cocogoose-pro.regular.ttf);
+}
+
+@import url("https://use.typekit.net/rez7wzp.css");
+
+h1,
+h2,
+h3 {
+  font-family: "cocogoose", sans-serif;
+}
+
+p {
+  font-family: panel, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+html {
+  background-color: #FAF9F5;
+}
+
+.App {
+  /* width: 40rem;
+  height: 32rem;
+  max-width: 670px;
+  max-height: 520px; */
+  width: 670px;
+  height: 520px;
+  display: flex;
+  gap: 30px;
+}
+
+.container {
+  padding: 28px 54px;
+}
+
+.content{
+  height: 447px;
+}
